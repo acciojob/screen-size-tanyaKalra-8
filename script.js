@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const divElement =  document.createElement("div");
-divElement.className = "sizeInfo"
+divElement.id = "sizeInfo"
 const sizeElement =  document.createElement("h1");
 sizeElement.innerText = `Width: ${window.innerWidth} and Height: ${window.innerHeight}`;
 
